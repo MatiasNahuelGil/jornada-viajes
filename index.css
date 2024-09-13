@@ -176,7 +176,8 @@
 .destinos__titulo--subrayado,
 .busca__titulo--subrayado,
 .ofertas__titulo--subrayado,
-.recorrido__titulo--subrayado {
+.recorrido__titulo--subrayado,
+.formulario__titulo--subrayado {
     width: 180px;
     height: 4px;
     background: var(--rojo);
@@ -489,7 +490,7 @@ span.material-symbols-outlined {
 
 /*************************** Blog página ***************************/
 
-.blog__main{
+.blog__main, .paquetes__main, .formulario__main{
     padding: 0px 4%;
 }
 
@@ -538,3 +539,44 @@ span.material-symbols-outlined {
     width: 100%;
 }
 
+
+/*************************** Formulario ***************************/
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.formulario__contenedor--lista{
+    width: 100%;
+}
+
+.formulario__contenedor--lista input, textarea{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--gris-oscuro);
+    resize: none;
+}
+
+.formulario__elemento--boton-texto{
+    width: 70%;
+    margin-left: 13%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--rojo);
+    color: var(--blanco);
+    border: none;
+}
+
+.formulario__elemento--boton-texto:hover{
+    background-color: var(--negro);
+}

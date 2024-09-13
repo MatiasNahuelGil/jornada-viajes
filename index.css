@@ -160,7 +160,8 @@
 .pago__titulo,
 .destinos__titulo,
 .busca__titulo,
-.ofertas__titulo {
+.ofertas__titulo,
+.recorrido__titulo {
     color: var(--grafito);
     font-size: var(--font-medium);
     font-style: normal;
@@ -174,7 +175,8 @@
 .pago__titulo--subrayado,
 .destinos__titulo--subrayado,
 .busca__titulo--subrayado,
-.ofertas__titulo--subrayado {
+.ofertas__titulo--subrayado,
+.recorrido__titulo--subrayado {
     width: 180px;
     height: 4px;
     background: var(--rojo);
@@ -256,6 +258,23 @@ span.material-symbols-outlined {
     margin-bottom: 24px;
 }
 
+.destinos__elemento--boton-texto{
+    background-color: var(--rojo);
+    color: var(--blanco);
+    width: 50%;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.destinos__elemento--boton-texto:hover{
+    background-color: var(--negro);
+}
+
+
+/*********************** **********************/
 .pago {
     margin-bottom: 112px;
 }
@@ -464,3 +483,58 @@ span.material-symbols-outlined {
         align-items: center;
     }
 }
+
+
+
+
+/*************************** Blog página ***************************/
+
+.blog__main{
+    padding: 0px 4%;
+}
+
+.recorrido__condiciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    gap: 24px;
+}
+
+.recorrido__condiciones--descripcion{
+    width: 40%;
+}
+
+.recorrido__condiciones--detalles{
+    font-size: var(--font-normal);
+}
+
+.recorrido__imagen{
+    width: 60%;
+}
+
+.recorrido__imagen--imagen{
+    width: 100%;
+}
+
+
+/*itinerario */
+
+.itinerario{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+
+.itinerario__texto{
+  line-height: 1.5rem;
+}
+
+
+
+.itinerario__contenedor img{
+    height: 500px;
+    width: 100%;
+}
+

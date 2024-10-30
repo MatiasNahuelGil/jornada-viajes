@@ -23,7 +23,7 @@
 }
 
 .offer__cards--san-andreas {
-    background-image: url("src/assets/images/san-andreas.png");
+    background-image: url("/san-andreas.png");
 }
 
 .offers__card--destination-type {

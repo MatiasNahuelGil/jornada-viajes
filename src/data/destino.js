@@ -1,7 +1,7 @@
-import tokyoImage from 'src/assets/images/tokyo.png';
-import osakaImage from 'src/assets/images/osaka.png';
-import hiroshimaImage from 'src/assets/images/Hiroshima.png';
-import kyotoImage from 'src/assets/images/Kyoto.png';
+import tokyoImage from '../assets/images/tokyo.png';
+import osakaImage from '../assets/images/osaka.png';
+import hiroshimaImage from '../assets/images/Hiroshima.png';
+import kyotoImage from '../assets/images/Kyoto.png';
 
 export const DESTINATIONS = [
     {

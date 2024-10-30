@@ -1,6 +1,6 @@
-import bannerBlogImage from 'src/assets/images/banner-blog.png';
-import bannerJaponImage from 'src/assets/images/banner-japon.png';
-import bannerContactoImage from 'src/assets/images/banner-contacto.png';
+import bannerBlogImage from '../assets/images/banner-blog.png';
+import bannerJaponImage from '../assets/images/banner-japon.png';
+import bannerContactoImage from '../assets/images/banner-contacto.png';
 
 export const BANNERS = [
     {

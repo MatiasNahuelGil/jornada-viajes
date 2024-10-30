@@ -1,6 +1,6 @@
-import avatarAna from 'src/assets/images/avatar-ana.png';
-import avatarAmari from 'src/assets/images/avatar-amari.png';
-import avatarLauro from 'src/assets/images/avatar-lauro.png';
+import avatarAna from '../assets/images/avatar-ana.png';
+import avatarAmari from '../assets/images/avatar-amari.png';
+import avatarLauro from '../assets/images/avatar-lauro.png';
 
 export const HOME_TESTIMONIALS = [
     {

@@ -19,7 +19,7 @@
 }
 
 .offer__cards--japon {
-    background-image: url("public/tokyo.png");
+    background-image: url("/tokyo.png");
 }
 
 .offer__cards--san-andreas {

@@ -1,0 +1,35 @@
+:root{
+    --primary-color   : #000000;
+    --secondary-color : #FFFFFF;
+    --tertiary-color  : #B81515;
+    --fourth-color    : #222222;
+    --fifth-color     : #8C8C8C;
+    --sixth-color     : #F5F5F5; 
+    
+
+     /*font-size */
+     --font-normal: 1.5rem;
+     --font-medium: 2rem;
+     --font-large: 3rem;
+     --font-extraLarge : 5rem;
+}
+
+.header{
+    color: var(--secondary-color);
+}
+
+
+p,h3{
+    font-size: var(--font-medium);
+    color: var(--fourth-color);
+}
+
+
+@media (max-width: 876px){
+    h3{
+        font-size: var(--font-normal);
+    }
+    p{
+        font-size: 10px;
+    }
+}

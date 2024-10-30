@@ -1,0 +1,26 @@
+.destination__card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+}
+
+
+
+.destination__card img{
+    width: 100%;
+}
+
+.destination__card button{
+    cursor: pointer;
+    padding: .7rem;
+    width: 40%;
+    border-radius: 0.6rem;
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    transition: all .5s ease;
+}
+
+.destination__card button:hover{
+    background-color: var(--primary-color);
+}

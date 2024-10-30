@@ -1,0 +1,33 @@
+.section__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    padding: 3em;
+}
+
+.section__container h2{
+    text-align: center;
+    font-size: var(--font-large);
+    color: var(--fourth-color);
+}
+
+.section__underline{
+    margin: auto;
+    width: 10rem;
+    border: 3px solid var(--tertiary-color);
+}
+
+
+.section__container--child{
+    display: flex;
+    gap: 20px;
+}
+
+
+@media (max-width: 1200px){
+    .section__container--child{
+        flex-direction: column;
+        align-items: center;
+    }
+}

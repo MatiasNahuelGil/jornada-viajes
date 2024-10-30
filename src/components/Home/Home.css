@@ -1,0 +1,9 @@
+.home img{
+    height: 80vh;
+}
+
+.about__us{
+    text-align: center;
+    padding: 3em;
+    font-size: var(--font-medium);
+}

@@ -12,7 +12,7 @@ import imagenThreeJapon from '../../assets/images/imageThreeJapon.png'
 import Testimonios from '../Testimonios/Testimonios';
 import { HOME_TESTIMONIALS } from '../../data/testimonios';
 import starRed from '../../assets/icons/star-1.svg';
-import starGray from '../../assets/icons/star-2.svg'
+import starGray from '../../assets/icons/star-2.svg';
 import Search from '../Search/Search';
 import Offer from '../Offer/Offer';
 import { OFFERS } from '../../data/Offer';

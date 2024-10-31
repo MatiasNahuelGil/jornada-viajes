@@ -32,4 +32,10 @@ p,h3{
     p{
         font-size: 10px;
     }
+    h3,p{
+        text-align: center;
+    }
+    button{
+        margin: 0 auto;
+    }
 }

@@ -24,3 +24,11 @@
 .destination__card button:hover{
     background-color: var(--primary-color);
 }
+
+
+@media (max-width : 876px){
+    .destination__card{
+        width: 90%;
+    }
+    
+}

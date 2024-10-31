@@ -14,3 +14,10 @@
 .sales__image{
     width: 100%;
 }
+
+
+@media (max-width : 876px){
+    .sales__container--ad, .sales__container--child{
+        width: 90%;
+    } 
+}

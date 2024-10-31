@@ -30,6 +30,23 @@
     resize: none;
 }
 
+.form__send{
+    
+    cursor: pointer;
+    padding: .7rem;
+    width: 40%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 0.6rem;
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    transition: all .5s ease;
+}
+
+.form__send:hover{
+    background-color: var(--primary-color);
+}
+
 @media (max-width : 700px){
     .form__container--list input, textarea{
         width: 70%;

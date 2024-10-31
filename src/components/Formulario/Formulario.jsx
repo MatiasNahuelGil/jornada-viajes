@@ -16,7 +16,7 @@ export default function Formulario(){
                <li className='form__container--list'>
                   <textarea placeholder='Asunto'></textarea>
                </li>
-               <button></button>
+               <button className='form__send'>Enviar</button>
            </form>
         </>
     )

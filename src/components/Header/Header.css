@@ -39,6 +39,9 @@
     #menu-icon{
         display: initial;
     }
+    .header__navBar{
+        padding: 0.4rem;
+    }
     .header__container__menu{
         position: absolute;
         flex-direction: column;

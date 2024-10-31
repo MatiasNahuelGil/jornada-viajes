@@ -14,12 +14,17 @@
     margin-top: 10px;
 }
 
-@media (max-width : 876px){
+@media (max-width : 1200px){
     .testimonial__container{
         width: 90%;
 
     }
     .profile__container{
         justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .avatar__name{
+        text-align: center;
     }
 }

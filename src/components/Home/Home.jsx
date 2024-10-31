@@ -82,7 +82,7 @@ export default function Home(){
                
            </Section>
            <div className='home'>
-               <img src={bannerHomeFoot} alt="hombre en canoa remando por el río" />
+               <img src={bannerHomeFoot} alt="imagen de una ciudad costera" />
            </div>
         </>
     )

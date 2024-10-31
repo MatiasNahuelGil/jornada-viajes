@@ -1,9 +1,27 @@
 .home img{
     height: 80vh;
+    width: 100%;
 }
 
 .about__us{
     text-align: center;
     padding: 3em;
     font-size: var(--font-medium);
+}
+
+@media (max-width: 876px){
+    .home img{      
+        height: 40vh; 
+        width: 100%;
+        object-fit: cover;  
+    }
+    .about__us{
+        font-size: var(--font-normal);
+    }
+}
+
+@media (max-width: 500px){
+    .about__us{
+        font-size: 17px;
+    }
 }

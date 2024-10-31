@@ -13,6 +13,7 @@ import Testimonios from "../Testimonios/Testimonios";
 import { HOME_TESTIMONIALS } from "../../data/testimonios";
 import starRed from '../../assets/icons/star-1.svg';
 import starGray from '../../assets/icons/star-2.svg';
+import './Paquetes.css'
 
 export default function Paquetes(){
     return(
@@ -60,7 +61,7 @@ export default function Paquetes(){
                    <img src={starRed} alt="icono de estrella roja" /> 
                </Testimonios>
            </Section>
-           <div>
+           <div className="packages">
               <img src={japaneseWomen} alt="Mujeres japonesas vestidas con kimono" />
            </div>
         </>

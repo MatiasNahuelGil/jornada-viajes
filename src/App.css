@@ -30,7 +30,7 @@ p,h3{
         font-size: var(--font-normal);
     }
     p{
-        font-size: 10px;
+        font-size: 18px;
     }
     h3,p{
         text-align: center;
@@ -38,4 +38,5 @@ p,h3{
     button{
         margin: 0 auto;
     }
+    
 }

@@ -1,25 +1,44 @@
-//Componente Header, contiene la barra de navegación y el banner 
-import './Header.css'
+import './Header.css';
 import Menu from "../Menu/Menu";
-import { useState } from 'react';
-import logoJornada from '../../assets/logo/jornadaLogo.png'
+import { useState, useEffect } from 'react';
+import logoJornada from '../../assets/logo/jornadaLogo.png';
 
+export default function Header() {
+    const [activeLink, setActiveLink] = useState("/");
+    const [isOpen, setIsOpen] = useState(false);
 
-export default function Header (){
+    const handleClickMenu = () => {
+        setIsOpen(prevState => !prevState);
+        console.log("haz abierto el menu");
+    };
 
-    const [activeLink, setActiveLink] = useState("/")
+    const handleScroll = () => {
+        setIsOpen(false);
+    };
 
-    return(
-       <header className="header">
-           
-           <nav className="header__navBar">
-               <img src={logoJornada} alt="logo de jornada viajes" />
-               <ul className="header__container__menu">
-                  <Menu activeLink={activeLink} setActiveLink={setActiveLink}/>
-               </ul>
-           </nav>
-           
-      </header> 
-    )
-      
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    return (
+        <header className="header">
+            <nav className="header__navBar">
+                <img src={logoJornada} alt="logo de jornada viajes" />
+                <ul className={`header__container__menu ${isOpen ? 'open' : ''}`}>
+                    <Menu activeLink={activeLink} setActiveLink={setActiveLink} />
+                </ul>
+                <div className='nav__icons'>
+                    <i 
+                        onClick={handleClickMenu} 
+                        className={`bx ${isOpen ? 'bx-x' : 'bx-menu'}`} 
+                        id="menu-icon">
+                    </i>
+                </div>
+            </nav>
+        </header>
+    );
 }

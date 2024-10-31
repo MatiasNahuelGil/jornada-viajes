@@ -13,7 +13,7 @@ export default function Testimonios({name,description,avatar,alt,children}){
                  <img src={avatar} alt={alt} />
 
                  <div>
-                    <h4>{name}</h4>
+                    <h4 className='avatar__name'>{name}</h4>
                     {children}
                  </div>
                  

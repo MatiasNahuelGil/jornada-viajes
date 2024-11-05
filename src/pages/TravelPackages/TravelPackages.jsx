@@ -1,5 +1,4 @@
-import './travelPackages.css';
-
+import './TravelPackages.css';
 import { BANNERS } from '../../data/banner';
 import { DESTINATIONS } from "../../data/destino";
 import Banner from '../../components/Banner/Banner'

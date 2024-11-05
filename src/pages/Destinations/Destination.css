@@ -1,0 +1,51 @@
+.destination__container--image{
+    width: 50%;
+    margin: auto;
+}
+
+.destination__container--image img{
+    width: 100%;
+    
+}
+
+.destination__lodging{
+    text-align: center;
+}
+
+.hotels__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border: 1px solid black;
+    background-color: var(--fifth-color);
+    
+    padding: 2rem;
+}
+
+.hotel__card{
+    width: 30%;
+
+}
+
+.hotel__card img{
+    width: 100%;
+    height: 17em;
+}
+
+.hotel__card p{
+    font-size: var(--font-normal);
+}
+
+@media (max-width: 1000px){
+    .hotel__card {
+        width: 40%;
+    }
+}
+
+@media (max-width: 876px){
+    .hotel__card {
+        width: 100%;
+    }
+}

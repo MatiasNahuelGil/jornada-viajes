@@ -1,10 +1,10 @@
 import { BANNERS } from "../../data/banner";
-import Banner from "../Banner/Banner";
-import Formulario from "../Formulario/Formulario";
-import Section from "../Section/Section";
-import './Contacto.css'
+import Banner from "../../components/Banner/Banner";
+import Formulario from "../../components/Formulario/Formulario";
+import Section from "../../components/Section/Section";
+import './Contact.css'
 
-export default function Contacto(){
+export default function Contact(){
     return(
         <>
            <Banner {...BANNERS[2]} />

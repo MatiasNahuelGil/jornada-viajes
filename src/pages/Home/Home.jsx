@@ -1,20 +1,20 @@
 import './Home.css';
 import bannerHomeHead from '../../assets/images/boteBanner.png';
 import bannerHomeFoot from '../../assets/images/pre-footer-image.png'
-import Section from '../Section/Section';
-import Destino from '../Destino/Destino';
+import Section from '../../components/Section/Section';
+import Destino from '../../components/Destino/Destino';
 import { DESTINATIONS } from '../../data/destino';
-import Venta from '../Venta/Venta';
+import Venta from '../../components/Venta/Venta';
 import { SALES } from '../../data/ventas';
 import imagenOneJapon from '../../assets/images/imageOneJapon.png'
 import imagentwoJapon from '../../assets/images/imageTwoJapon.png'
 import imagenThreeJapon from '../../assets/images/imageThreeJapon.png'
-import Testimonios from '../Testimonios/Testimonios';
+import Testimonios from '../../components/Testimonios/Testimonios';
 import { HOME_TESTIMONIALS } from '../../data/testimonios';
 import starRed from '../../assets/icons/star-1.svg';
 import starGray from '../../assets/icons/star-2.svg';
-import Search from '../Search/Search';
-import Offer from '../Offer/Offer';
+import Search from '../../components/Search/Search';
+import Offer from '../../components/Offer/Offer';
 import { OFFERS } from '../../data/Offer';
 
 export default function Home(){

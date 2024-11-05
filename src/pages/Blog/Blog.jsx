@@ -1,13 +1,13 @@
-import Banner from "../Banner/Banner";
+import Banner from "../../components/Banner/Banner";
 import { BANNERS } from "../../data/banner";
-import Section from "../Section/Section";
-import Venta from "../Venta/Venta";
+import Section from "../../components/Section/Section";
+import Venta from "../../components/Venta/Venta";
 import { SALES } from "../../data/ventas";
 import imageTokyo from "../../assets/images/Tokyo-2.png";
 import imageTokyoTwo from "../../assets/images/tokyo.png"
 import { DESTINATIONS } from "../../data/destino";
-import Destino from "../Destino/Destino";
-import Route from "../Route/Route";
+import Destino from "../../components/Destino/Destino";
+import Route from "../../components/Route/Route";
 import { ROUTES } from "../../data/route";
 import './Blog.css'
 

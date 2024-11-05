@@ -1,21 +1,23 @@
-import { BANNERS } from "../../data/banner";
+import './travelPackages.css';
+
+import { BANNERS } from '../../data/banner';
 import { DESTINATIONS } from "../../data/destino";
-import Banner from "../Banner/Banner";
-import Destino from "../Destino/Destino";
-import Section from "../Section/Section";
+import Banner from '../../components/Banner/Banner'
+import Destino from '../../components/Destino/Destino'
+import Section from "../../components/Section/Section";
 import temploOne from '../../assets/images/temploJapon.png'
 import temploTwo from '../../assets/images/temploJapon-2.png'
 import temploThree from '../../assets/images/temploJapon-3.png'
-import Venta from "../Venta/Venta";
+import Venta from "../../components/Venta/Venta";
 import { SALES } from "../../data/ventas";
 import japaneseWomen from "../../assets/images/mujeres-japonesas.png";
-import Testimonios from "../Testimonios/Testimonios";
+import Testimonios from "../../components/Testimonios/Testimonios";
 import { HOME_TESTIMONIALS } from "../../data/testimonios";
 import starRed from '../../assets/icons/star-1.svg';
 import starGray from '../../assets/icons/star-2.svg';
-import './Paquetes.css'
+import './TravelPackages.css'
 
-export default function Paquetes(){
+export default function TravelPackages(){
     return(
         <>
            <Banner {...BANNERS[1]}/>

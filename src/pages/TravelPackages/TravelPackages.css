@@ -1,0 +1,10 @@
+.packages img{
+    height: 80vh;
+    width: 100%;
+ }
+ 
+ @media (max-width : 876px){
+    .packages img{
+     height: 40vh;
+    }
+ }

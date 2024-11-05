@@ -1,0 +1,57 @@
+.hotel__detail{
+    display: flex;
+    padding: 2em;
+    gap: 1em;
+    justify-content: space-around;
+}
+
+.hotel__detail--description{
+    width: 50%;
+}
+
+
+.hotel__detail--description h2{
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.hotel__detail--description img{
+    height: 25em;
+    width: 100%;
+}
+
+.hotel__detail--reservation{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    width: 50%;
+
+}
+.hotel__detail--reservation label {
+    width: 80%;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: var(--tertiary-color);
+    border: 1px solid black;
+    color: var(--secondary-color);
+}
+
+.hotel__detail--reservation label input{
+    margin-left: 1rem;
+    padding: 0.7rem;
+   
+}
+
+.hotel__detail--reservation button{
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 1rem;
+    transition: all .5s ease;
+}
+
+.hotel__detail--reservation button:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}

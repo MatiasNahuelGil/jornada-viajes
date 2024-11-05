@@ -19,7 +19,7 @@ export default function Blog(){
           <Section title="Tokyo">
             <Venta {...SALES[1]}>    
                   <div className="sales__container--images">
-                         <img className="sales__image" alt="" src={imageTokyo} />
+                         <img className="sales__image" alt="imagen de tienda en tokyo" src={imageTokyo} />
                   </div>
             </Venta>  
           </Section>

@@ -47,6 +47,21 @@
     background-color: var(--primary-color);
 }
 
+.error {
+    position: absolute;
+
+    color: red;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+}
+
+.success {
+    color: green;
+    font-size: var(--font-medium);
+    margin-top: 1rem;
+}
+
+
 @media (max-width : 700px){
     .form__container--list input, textarea{
         width: 70%;

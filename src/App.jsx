@@ -7,6 +7,8 @@ import TravelPackages from './pages/TravelPackages/TravelPackages'
 import Contact from './pages/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import DestinationDetail from './pages/Destinations/Destination'
+import Cart from './components/Cart/Cart'
+import HotelDetail from './components/HotelDetails/HotelDetail'
 
 
 
@@ -22,6 +24,8 @@ function App() {
               <Route path='/paquetes' element={<TravelPackages />} />
               <Route path='/contacto' element={<Contact />} />
               <Route path='/destination/:destinationId' element={<DestinationDetail/>} />
+              <Route path="/hotel/:hotelId" element={<HotelDetail/>} />
+              <Route path="/cart" element={<Cart/>} />
             </Routes>
             <Footer/>
          </BrowserRouter>

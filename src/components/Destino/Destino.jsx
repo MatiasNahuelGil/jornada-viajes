@@ -9,7 +9,7 @@ export default function Destino({cityImage,title,description,id}){
 
     const handleDestinationClick = () => {
         navigate(`/destination/${id}`)
-        console.log("haz hecho click")
+        
     }
 
     return (

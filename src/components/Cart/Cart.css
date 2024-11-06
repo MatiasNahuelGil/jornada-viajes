@@ -1,0 +1,95 @@
+
+
+.cart__container{
+    padding: 2rem;
+    gap: 2rem;
+    
+}
+
+.cart__container--hotels{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.cart__hotel--reservation{
+    padding-top: 2rem;
+    width: 30%;
+    margin-left: 2rem;
+}
+
+.cart__hotel--reservation img{
+    height: 15rem;
+    width: 100%;
+}
+
+.cart__hotel--reservation p{
+    font-size: 14px;
+}
+
+.cart__hotel--confirm{
+    
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    justify-content: space-evenly;
+
+}
+
+.cart__hotel--confirm button, .cart__actions button{
+    padding: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.5s ease;
+    border: none;
+}
+
+.cart__hotel--confirm button:hover, .cart__actions button:hover{
+    color: var(--secondary-color);
+}
+
+.cart__hotel--confirm-add:hover{
+    background-color: var(--seventh-color);
+}
+
+.cart__hotel--confirm-delete:hover{
+    background-color: var(--tertiary-color);
+    
+}
+
+.cart__actions{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+
+.bx-check-double{
+    font-size: var(--font-normal);
+    color: var(--seventh-color);
+}
+
+
+@media (max-width : 1050px){
+    .cart__hotel--reservation{
+        width: 40%;
+    }
+}
+
+@media (max-width : 710px){
+    .cart__hotel--reservation{
+        width: 100%;
+    }
+    .cart__hotel--reservation img{
+        height: 20em;
+    }
+    
+}
+
+@media (max-width : 410px){
+    
+    .cart__hotel--reservation img{
+        height: 12em;
+    }
+}

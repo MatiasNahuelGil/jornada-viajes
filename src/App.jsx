@@ -12,12 +12,14 @@ import HotelDetail from './components/HotelDetails/HotelDetail'
 
 
 
+
 function App() {
 
   return (
     <>
       <BrowserRouter>
             <Header/>
+            
             <Routes>
               <Route path='/' element={ <Home/> } />
               <Route path='/blog' element={<Blog />} />
@@ -27,6 +29,7 @@ function App() {
               <Route path="/hotel/:hotelId" element={<HotelDetail/>} />
               <Route path="/cart" element={<Cart/>} />
             </Routes>
+            
             <Footer/>
          </BrowserRouter>
     </>

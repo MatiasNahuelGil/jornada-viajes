@@ -3,6 +3,7 @@ import './HotelDetail.css';
 import { useParams, useNavigate } from 'react-router-dom';
 import { DESTINATIONS } from '../../data/destino'; 
 import { useState } from 'react';
+import GoBack from '../GoBack/GoBack';
 
 export default function HotelDetail() {
   const { hotelId } = useParams(); 
@@ -43,6 +44,8 @@ export default function HotelDetail() {
   };
 
   return (
+    <>
+    <GoBack/>
     <article className="hotel__detail">
         <div className='hotel__detail--description'>
            <h2>{hotel.name}</h2>
@@ -59,8 +62,10 @@ export default function HotelDetail() {
               Fecha de salida:
               <input type="date" value={checkOut} onChange={e => setCheckOut(e.target.value)} />
           </label>
-          <button onClick={handleReserve}>Confirmar Reserva</button>
+          <button onClick={handleReserve}>Enviar al carrito</button>
       </div>
     </article>
+    </>
+    
   );
 }

@@ -2,6 +2,7 @@ import './Destination.css';
 import { useParams } from 'react-router-dom';
 import { DESTINATIONS } from '../../data/destino';
 import { Link } from 'react-router-dom';
+import GoBack from '../../components/GoBack/GoBack';
 
 
 export default function DestinationDetail() {
@@ -13,6 +14,8 @@ export default function DestinationDetail() {
   }
 
   return (
+    <>
+     <GoBack/>
     <article className="section__container">
       <h2>{destination.title}</h2>
       <div className="section__underline"></div>
@@ -40,5 +43,8 @@ export default function DestinationDetail() {
       ))}
      </section>
     </article>
+    
+    </>
+    
   );
 }

@@ -5,7 +5,7 @@
 
 .destination__container--image img{
     width: 100%;
-    
+    object-fit: cover;
 }
 
 .destination__lodging{
@@ -31,6 +31,7 @@
 .hotel__card img{
     width: 100%;
     height: 17em;
+    object-fit: cover;
 }
 
 .hotel__card p{

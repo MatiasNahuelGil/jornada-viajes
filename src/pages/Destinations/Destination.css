@@ -58,6 +58,7 @@
 @media (max-width: 876px){
     .hotel__card {
         width: 100%;
+        padding: 1rem;
     }
     .hotels__list{
         width: 100%;
@@ -65,6 +66,3 @@
     }
 }
 
-*{
-    border: 1px solid black;
-}

@@ -12,7 +12,7 @@ import HotelDetail from './components/HotelDetails/HotelDetail'
 
 
 
-
+/*En el compoonente principal llevo todas las rutas que tenemos disponible en nuestra página web */
 function App() {
 
   return (

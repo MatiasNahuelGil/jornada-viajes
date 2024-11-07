@@ -7,6 +7,8 @@ export default function Destino({cityImage,title,description,id}){
 
     const navigate = useNavigate();
 
+
+     /*Función que controla la navegación hacia los distintos destinos, haciendo click en el botón ver detalles */
     const handleDestinationClick = () => {
         navigate(`/destination/${id}`)
         

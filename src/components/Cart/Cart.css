@@ -13,6 +13,9 @@
     
 }
 
+.not__reservation{
+    height: 60vh;
+}
 
 .cart__hotel--reservation{
     padding-top: 2rem;

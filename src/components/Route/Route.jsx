@@ -7,4 +7,4 @@ export default function Route({ title, description }) {
       <p>{description}</p>
     </>
   );
-}
+};

@@ -73,7 +73,7 @@ export default function Cart() {
         </h2>
         <div className="cart__container--hotels">
           {reservations.length === 0 ? (
-            <p>No hay reservas en el carrito.</p>
+            <p className="not__reservation">No hay reservas en el carrito.</p>
           ) : (
             reservations.map((reservation, index) => (
               <div key={index} className="cart__hotel--reservation">
